@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <title>Додати Продукти</title>
+</head>
+<body>
+<h1>Додати Продукт</h1>
+<form style="margin-left: 80px" method="post" action="add_product.php"><br>
+  <b>ID Продукта:</b><br>
+  <input style="width: 60%; margin-top: 10px" class="form-control" name="product_id" value="10" ><br><br>
+  <b>Назва:</b> <br>
+  <input style="width: 60%; margin-top: 10px" class="form-control" name="name" value="Молоко" size=30><br><br>
+  <b>Тип:</b> <br>
+  <input style="width: 60%; margin-top: 10px" class="form-control" name="type" value="Молочний продукт" size=30><br><br>
+  <b>Опис:</b> <br>
+  <input style="width: 60%; margin-top: 10px" class="form-control" name="description" value="Свіже  молоко" size=30><br><br>
+  <b>Ціна:</b> <br>
+  <input style="width: 60%; margin-top: 10px" class="form-control" name="price" value="10.8" size=30><br><br>
+  <input class="btn btn-outline-info" type="submit" value="OK">
+</form>
+<a class="btn btn-secondary" style="margin-left: 80px" href='products.php'>Продукти</a>
+</body>
+</html>
